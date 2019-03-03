@@ -18,6 +18,15 @@ function whileLoop(number) {
   return "done"
 }
 
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+ 
+do {
+  console.log("doo-bee-doo-bee-doo");
+} while (incrementVariable() < 5);
+
 function doWhileLoop(num) {
-  while (incrementVariable() < num)
+  
 }
